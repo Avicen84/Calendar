@@ -1,0 +1,104 @@
+/*instrucciones generales*/
+
+* {
+  margin: auto;
+}
+
+body {
+  background-image: url(Old-Paper-Background-For-Free-.jpg);
+}
+
+/*cabecera de la página*/
+
+.titleLogo {
+  width: 400px;
+  height: 150px;
+  background-image: url(calendar.png);
+  background-size: cover;
+  text-align: center;
+  padding: 0.5em;
+}
+
+/*div principal del calendario*/
+
+#calendario {
+  border-radius: 25px;
+  max-width: 700px;
+  height: 480px;
+  background-color: rgba(198, 198, 198, 0.78);
+  text-align: center;
+}
+
+/*tabla del calendario*/
+
+#diasc {
+  width: auto;
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+
+#diasc th,
+#diasc td {
+  font: bold 16pt 'Indie Flower';
+  width: 100px;
+  height: 50px;
+}
+
+#diasc th {
+  color: #000000;
+  background-color: rgba(147, 216, 235, 0.72);
+}
+
+#diasc td {
+  color: #000000;
+  background-color: #000000
+}
+
+/*línea de la fecha actual*/
+
+#fechaactual {
+  font: bold 12pt 'Indie Flower';
+  padding: 0.4em
+}
+
+#fechaactual i {
+  cursor: pointer;
+}
+
+#fechaactual i:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/*cabecera del calendario*/
+
+#anterior {
+  float: left;
+  width: 100px;
+  font: bold 12pt 'Indie Flower';
+  padding: 0.5em 0.1em;
+  cursor: pointer;
+}
+
+#posterior {
+  float: right;
+  width: 100px;
+  font: bold 12pt 'Indie Flower';
+  padding: 0.5em 0.1em;
+  cursor: pointer;
+}
+
+#anterior:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#posterior:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#titulos {
+  font-family: 'Indie Flower', cursive;
+  padding: 0.2em;
+}
